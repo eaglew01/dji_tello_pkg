@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="dji_tello_pkg" name="dji_tello_swarm_listener_teleop_parallel" type="dji_tello_swarm_listener_teleop_parallel.py" output="screen"/>
+  <node pkg="dji_tello_pkg" name="dji_tello_publisher_teleop" type="dji_tello_publisher_teleop.py" output="screen"/>
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="dji_tello_pkg" name="dji_tello_swarm_listener_teleop_sequentialandparallel" type="dji_tello_swarm_listener_teleop_sequentialandparallel.py" output="screen"/>
+  <node pkg="dji_tello_pkg" name="dji_tello_publisher_show" type="dji_tello_publisher_show.py" output="screen"/>
+</launch>
